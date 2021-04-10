@@ -26793,6 +26793,23 @@ body:not(.cursor-is--active) .widget-partners-carousel .slick-arrow {
   background-image: url("../img/page-heading-img-06.jpg");
 }
 
+.bg--ph-07 {
+  background-image: url("../img/home-slider-highligh-01.jpg");
+}
+
+.bg--ph-08 {
+  background-image: url("../img/home-slider-highligh-02.jpg");
+}
+
+.bg--ph-09 {
+  background-image: url("../img/home-slider-highligh-03.jpg");
+}
+
+.bg--ph-10 {
+  background-image: url("../img/home-slider-highligh-04.jpg");
+}
+
+
 .bg--checkout-login {
   background-image: url("../img/checkout-login-bg.jpg");
 }
