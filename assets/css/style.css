@@ -17454,7 +17454,7 @@ h4 + .spacer {
 }
 
 .color-success {
-  color: #88df00 !important;
+  color: #ffcc00 !important;
 }
 
 .color-danger {
@@ -17531,7 +17531,7 @@ body:not(.cursor-is--active) .accordion-item__link {
   right: 0;
   width: 14px;
   height: 14px;
-  border: 2px solid #88df00;
+  border: 2px solid #ffcc00;
   -webkit-transition: border-color 300ms ease;
   transition: border-color 300ms ease;
 }
@@ -17552,7 +17552,7 @@ body:not(.cursor-is--active) .accordion-item__link {
   height: 2px;
   content: "";
   background-color: #222430;
-  background-color: #88df00;
+  background-color: #ffcc00;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }
@@ -17571,11 +17571,11 @@ body:not(.cursor-is--active) .accordion-item__link {
 }
 
 .accordion-item__link:hover .accordion-item__icon {
-  border-color: #88df00;
+  border-color: #ffcc00;
 }
 
 .accordion-item__link:hover .accordion-item__icon:after, .accordion-item__link:hover .accordion-item__icon:before {
-  background-color: #88df00;
+  background-color: #ffcc00;
 }
 
 .collapsed .accordion-item__icon {
@@ -17703,7 +17703,7 @@ fieldset[disabled] a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #88df00;
+  background-color: #ffcc00;
 }
 
 .btn-success:hover {
@@ -18179,7 +18179,7 @@ input[type="button"].btn-block {
 .counter__icon .df-icon {
   width: 24px;
   height: 24px;
-  fill: #88df00;
+  fill: #ffcc00;
 }
 
 @media (min-width: 1920px) {
@@ -18423,9 +18423,9 @@ div.cs-active {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: #487500;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#73bb00), to(#1d3000));
-  background-image: linear-gradient(#73bb00, #1d3000);
+  background-color: #795800 ;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d39b00), to(#302300));
+  background-image: linear-gradient(#d39b00, #302300);
   width: 53%;
   height: 40%;
   -webkit-transform: skew(20deg);
@@ -18450,9 +18450,9 @@ div.cs-active {
   position: absolute;
   left: 5%;
   bottom: 0;
-  background-color: #85da00;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#b6e900), to(#55cc00));
-  background-image: linear-gradient(#b6e900, #55cc00);
+  background-color: #FFBA00;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc31e), to(#ca9400));
+  background-image: linear-gradient(#ffc31e, #ca9400);
   width: 53%;
   height: 100%;
   -webkit-transform: skew(20deg);
@@ -18492,8 +18492,8 @@ div.cs-active {
   bottom: 0;
   top: 29%;
   background-color: #FFBA00;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#c8ff19), to(#7fff0b));
-  background-image: linear-gradient(#c8ff19, #7fff0b);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd45d), to(#ffa600));
+  background-image: linear-gradient(#ffd45d, #ffa600);
   width: 53%;
   -webkit-transform: skew(20deg);
           transform: skew(20deg);
@@ -18566,9 +18566,9 @@ div.cs-active {
   position: absolute;
   left: 53%;
   bottom: 0;
-  background-color: #487500;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#73bb00), to(#1d3000));
-  background-image: linear-gradient(#73bb00, #1d3000);
+  background-color: #795800 ;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d39b00), to(#302300));
+  background-image: linear-gradient(#d39b00, #302300);
   width: 49%;
   height: 73%;
   -webkit-transform: skew(-20deg) translateX(-50%);
@@ -18598,9 +18598,9 @@ div.cs-active {
   position: absolute;
   left: 43%;
   bottom: 0;
-  background-color: #7dcd00;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#a0e700), to(#29a000));
-  background-image: linear-gradient(#a0e700, #29a000);
+  background-color: #ff9900;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFBA00), to(#ffae00));
+  background-image: linear-gradient(#FFBA00, #ffae00);
   width: 49%;
   height: 65%;
   -webkit-transform: skew(-20deg) translateX(-50%);
@@ -18625,9 +18625,9 @@ div.cs-active {
   position: absolute;
   left: 55%;
   bottom: 0;
-  background-color: #85da00;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e7f800), to(#24bd00));
-  background-image: linear-gradient(#e7f800, #24bd00);
+  background-color: #FFBA00;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e7f800), to(#c59100));
+  background-image: linear-gradient(#e7f800, #c59100);
   width: 42%;
   height: 100%;
   -webkit-transform: skew(-20deg) translateX(-50%);
@@ -19780,7 +19780,7 @@ a:hover ~ .dl-toggle:before {
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: transparent;
-  border-color: #88df00;
+  border-color: #ffcc00;
 }
 
 .form-control.has-success {
@@ -19861,7 +19861,7 @@ body:not(.cursor-is--active) .select-wrapper select {
 .select-wrapper:after, .select-wrapper:before {
   content: "";
   position: absolute;
-  background-color: #88df00;
+  background-color: #ffcc00;
   -webkit-transition: opacity 300ms ease;
   transition: opacity 300ms ease;
 }
@@ -19955,7 +19955,7 @@ body:not(.cursor-is--active) .select-wrapper select {
   height: 2px;
   content: "";
   opacity: 0;
-  background-color: #88df00;
+  background-color: #ffcc00;
   -webkit-transition: opacity 300ms ease;
   transition: opacity 300ms ease;
 }
@@ -26651,7 +26651,7 @@ body:not(.cursor-is--active) .widget-partners-carousel .slick-arrow {
   --primary: #FFBA00;
   --secondary: #5e627e;
   --tertiary: #222430;
-  --success: #88df00;
+  --success: #ffcc00;
   --info: #ced0da;
   --warning: #ffcc00;
   --danger: #ff1c5c;
@@ -26808,6 +26808,9 @@ body:not(.cursor-is--active) .widget-partners-carousel .slick-arrow {
 .bg--ph-10 {
   background-image: url("../img/home-slider-highligh-04.jpg");
 }
+.bg--ph-11 {
+  background-image: url("../img/home-slider-highligh-05.jpg");
+}
 
 
 .bg--checkout-login {
@@ -26848,7 +26851,7 @@ body:not(.cursor-is--active) .widget-partners-carousel .slick-arrow {
 }
 
 .bc-color-pallete-07 {
-  border-color: #88df00;
+  border-color: #ffcc00;
 }
 
 .bc-color-pallete-08 {
@@ -29533,7 +29536,7 @@ body:not(.cursor-is--active) .post__sharing-item--menu i {
 }
 
 .comment__reply a {
-  color: #88df00;
+  color: #ffcc00;
   -webkit-transition: color 300ms ease;
   transition: color 300ms ease;
 }
@@ -29718,7 +29721,7 @@ body:not(.cursor-is--active) .post__sharing-item--menu i {
   position: absolute;
   top: 0;
   left: 0;
-  fill: #88df00;
+  fill: #ffcc00;
 }
 
 .account-navigation__logout:hover .df-icon--logout-arrow {
@@ -29750,7 +29753,7 @@ body:not(.cursor-is--active) .post__sharing-item--menu i {
   right: 0;
   width: 14px;
   height: 14px;
-  background-color: #88df00;
+  background-color: #ffcc00;
 }
 
 @media (min-width: 1920px) {
@@ -29884,7 +29887,7 @@ body:not(.cursor-is--active) .post__sharing-item--menu i {
 }
 
 .account-navigation__menu a:hover:before, .account-navigation__menu a.active:before {
-  color: #88df00;
+  color: #ffcc00;
 }
 
 .account-content {
@@ -30487,7 +30490,7 @@ body:not(.cursor-is--active) .post__sharing-item--menu i {
 }
 
 .checkout-order__promo .amount {
-  color: #88df00;
+  color: #ffcc00;
 }
 
 .checkout-order__order-total {
@@ -31188,7 +31191,7 @@ body:not(.cursor-is--active) .post__sharing-item--menu i {
   padding: 0;
   width: 6px;
   height: 6px;
-  color: #88df00;
+  color: #ffcc00;
 }
 
 body:not(.cursor-is--active) .product__options .quantity-control button {
@@ -31198,7 +31201,7 @@ body:not(.cursor-is--active) .product__options .quantity-control button {
 .product__options .quantity-control button:after, .product__options .quantity-control button:before {
   position: absolute;
   content: "";
-  background-color: #88df00;
+  background-color: #ffcc00;
   -webkit-transition: opacity 300ms ease;
   transition: opacity 300ms ease;
 }
@@ -31269,7 +31272,7 @@ body:not(.cursor-is--active) .product__options .size-control select {
 .product__options .size-control:after, .product__options .size-control:before {
   content: "";
   position: absolute;
-  background-color: #88df00;
+  background-color: #ffcc00;
   -webkit-transition: opacity 300ms ease;
   transition: opacity 300ms ease;
 }
@@ -36333,9 +36336,9 @@ body:not(.cursor-is--active) .team-carousel-tabs__navigation li {
 .team-info-page .team-player__inner .ncr-page-decor .ncr-page-decor__layer-2 {
   height: 100%;
   left: 78%;
-  background-color: #85da00;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#b6e900), to(#55cc00));
-  background-image: linear-gradient(#b6e900, #55cc00);
+  background-color: #FFBA00;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc31e), to(#ca9400));
+  background-image: linear-gradient(#ffc31e, #ca9400);
 }
 
 .team-info-page .team-player__inner .ncr-page-decor .ncr-page-decor__layer-2::before {
@@ -36360,8 +36363,8 @@ body:not(.cursor-is--active) .team-carousel-tabs__navigation li {
   height: 70%;
   width: 50%;
   background-color: #FFBA00;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#c8ff19), to(#7fff0b));
-  background-image: linear-gradient(#c8ff19, #7fff0b);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd45d), to(#ffa600));
+  background-image: linear-gradient(#ffd45d, #ffa600);
   -webkit-box-shadow: 0 3px 0 24px rgba(0, 0, 0, 0.05);
           box-shadow: 0 3px 0 24px rgba(0, 0, 0, 0.05);
 }
@@ -37137,9 +37140,9 @@ body:not(.cursor-is--active) .player-info-carousel .slick-arrow {
 }
 
 .team-player__slide.slick-current .team-player__slide-inner {
-  background-color: #85da00;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e7f800), to(#24bd00));
-  background-image: linear-gradient(#e7f800, #24bd00);
+  background-color: #FFBA00;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e7f800), to(#c59100));
+  background-image: linear-gradient(#e7f800, #c59100);
   opacity: 1;
   overflow: visible;
 }
@@ -37175,9 +37178,9 @@ body:not(.cursor-is--active) .player-info-carousel .slick-arrow {
 }
 
 .team-player__slide.slick-current.team-player__slide--category-1 .team-player__slide-inner {
-  background-color: #85da00;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e7f800), to(#24bd00));
-  background-image: linear-gradient(#e7f800, #24bd00);
+  background-color: #FFBA00;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e7f800), to(#c59100));
+  background-image: linear-gradient(#e7f800, #c59100);
 }
 
 .team-player__slide.slick-current.team-player__slide--category-2 .team-player__slide-inner {
