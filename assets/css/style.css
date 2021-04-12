@@ -17189,7 +17189,7 @@ h1 .subtitle.subtitle--warning {
 }
 
 h1 .subtitle.subtitle--danger {
-  color: #ff1c5c;
+  color: #FFBA00;
 }
 
 @media (min-width: 576px) {
@@ -17458,7 +17458,7 @@ h4 + .spacer {
 }
 
 .color-danger {
-  color: #ff1c5c !important;
+  color: #FFBA00 !important;
 }
 
 .color-gold {
@@ -17713,7 +17713,7 @@ fieldset[disabled] a.btn {
 
 .btn-danger {
   color: #fff;
-  background-color: #ff1c5c;
+  background-color: #FFBA00;
 }
 
 .btn-danger:hover {
@@ -23815,7 +23815,7 @@ body:not(.cursor-is--active) .stream {
 }
 
 .badge-live {
-  background-color: #ff1c5c;
+  background-color: #FFBA00;
   border-radius: 2px;
   font-size: .375rem;
   vertical-align: top;
@@ -26654,7 +26654,7 @@ body:not(.cursor-is--active) .widget-partners-carousel .slick-arrow {
   --success: #ffcc00;
   --info: #ced0da;
   --warning: #ffcc00;
-  --danger: #ff1c5c;
+  --danger: #FFBA00;
   --light: #fff;
   --dark: #151720;
 }
@@ -26757,7 +26757,7 @@ body:not(.cursor-is--active) .widget-partners-carousel .slick-arrow {
 }
 
 .bg--product-color-02 {
-  background-color: #ff1c5c;
+  background-color: #FFBA00;
 }
 
 .bg--product-color-03 {
@@ -26847,7 +26847,7 @@ body:not(.cursor-is--active) .widget-partners-carousel .slick-arrow {
 }
 
 .bc-color-pallete-06 {
-  border-color: #ff1c5c;
+  border-color: #FFBA00;
 }
 
 .bc-color-pallete-07 {
@@ -28870,7 +28870,7 @@ body.site-layout--horizontal {
 .blog-layout--style-3 .post--video .post__thumbnail-icon,
 .blog-layout--style-4 .post--video .post__thumbnail-icon {
   border-radius: 50%;
-  background-color: #ff1c5c;
+  background-color: #FFBA00;
 }
 
 .blog-layout--style-1 .post--video .post__thumbnail-icon,
@@ -32123,7 +32123,7 @@ body:not(.cursor-is--active) .product--single .slick-slider .slick-arrow {
   width: 3px;
   height: 3px;
   border-radius: 50%;
-  background-color: #ff1c5c;
+  background-color: #FFBA00;
 }
 
 @media (min-width: 576px) {
@@ -33016,7 +33016,7 @@ body:not(.cursor-is--active) .matches-scores__navigation.slick-slider .slick-arr
 }
 
 .team-red .match-player__level {
-  background-color: #ff1c5c;
+  background-color: #FFBA00;
 }
 
 .match-player__nickname {
@@ -33256,7 +33256,7 @@ body:not(.cursor-is--active) .matches-scores__navigation.slick-slider .slick-arr
 
 .match-stats-progress__bar .team-red:before,
 .team-red .match-stats-progress__bar span:before {
-  background-image: repeating-linear-gradient(to right, transparent, transparent 2px, #ff1c5c 2px, #ff1c5c 4px);
+  background-image: repeating-linear-gradient(to right, transparent, transparent 2px, #FFBA00 2px, #FFBA00 4px);
 }
 
 .match-stats-progress--double .match-stats-progress__bar .team-blue:before {
@@ -33264,7 +33264,7 @@ body:not(.cursor-is--active) .matches-scores__navigation.slick-slider .slick-arr
 }
 
 .match-stats-progress--double .match-stats-progress__bar .team-red:before {
-  background-image: repeating-linear-gradient(to left, transparent, transparent 2px, #ff1c5c 2px, #ff1c5c 4px);
+  background-image: repeating-linear-gradient(to left, transparent, transparent 2px, #FFBA00 2px, #FFBA00 4px);
 }
 
 .match-stats-progress--double .match-stats-progress__bar ~ .match-stats-progress__bar .team-blue:before {
@@ -33272,7 +33272,7 @@ body:not(.cursor-is--active) .matches-scores__navigation.slick-slider .slick-arr
 }
 
 .match-stats-progress--double .match-stats-progress__bar ~ .match-stats-progress__bar .team-red:before {
-  background-image: repeating-linear-gradient(to right, transparent, transparent 2px, #ff1c5c 2px, #ff1c5c 4px);
+  background-image: repeating-linear-gradient(to right, transparent, transparent 2px, #FFBA00 2px, #FFBA00 4px);
 }
 
 .match-stats-progress__bar ~ .match-stats-progress__score {
@@ -33702,7 +33702,7 @@ body:not(.cursor-is--active) .matches-scores__navigation.slick-slider .slick-arr
 }
 
 .match-stats-widget li.team-red:before {
-  background-color: #ff1c5c;
+  background-color: #FFBA00;
 }
 
 .match-stats-widget--general .match-stats-widget__body > li {
@@ -33833,7 +33833,7 @@ body:not(.cursor-is--active) .matches-scores__navigation.slick-slider .slick-arr
 }
 
 .match-stats-widget__details ul .team-red {
-  color: #ff1c5c;
+  color: #FFBA00;
 }
 
 .match-stats-widget__details ul .team-1 {
@@ -34265,7 +34265,7 @@ body:not(.cursor-is--active) .matches-scores__navigation.slick-slider .slick-arr
 }
 
 .match-team__result.team-red {
-  color: #ff1c5c;
+  color: #FFBA00;
 }
 
 .match-score .match-team:first-child {
@@ -34756,7 +34756,7 @@ body:not(.cursor-is--active) .matches-scores__navigation.slick-slider .slick-arr
 
 .lineups-table td.team-red:last-child:before {
   right: 0;
-  background-color: #ff1c5c;
+  background-color: #FFBA00;
 }
 
 .lineups-table td:last-child .match-player {
@@ -35433,8 +35433,8 @@ body:not(.cursor-is--active) .matches-scores__navigation.slick-slider .slick-arr
 }
 
 .standings-table tbody td {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-size: .75rem;
 }
 
@@ -35454,7 +35454,7 @@ body:not(.cursor-is--active) .matches-scores__navigation.slick-slider .slick-arr
 }
 
 .standings-table__losses, .standings-table__streak--losses {
-  color: #ff1c5c;
+  color: #FFBA00;
 }
 
 .team-carousel {
