@@ -23989,8 +23989,8 @@ body:not(.cursor-is--active) .stream {
 }
 
 .world-map-team--one {
-  bottom: 58%;
-  left: 26%;
+  bottom: 24%;
+  left: 53%;
 }
 
 .world-map-team--two {
@@ -36538,13 +36538,13 @@ body:not(.cursor-is--active) .team-carousel-tabs__navigation li {
 
 @media (min-width: 768px) {
   .player-info-detail__title {
-    font-size: 1.125rem;
+    font-size: 0.98rem;
   }
 }
 
 @media (min-width: 1920px) {
   .player-info-detail__title {
-    font-size: 1.75rem;
+    font-size: 1.4rem;
   }
 }
 
