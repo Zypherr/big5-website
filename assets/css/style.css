@@ -12241,30 +12241,35 @@ a.text-dark:focus {
 }
 
 .fa-rotate-90 {
+  filter: none;
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
 .fa-rotate-180 {
+  filter: none;
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .fa-rotate-270 {
+  filter: none;
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
   -webkit-transform: rotate(270deg);
   transform: rotate(270deg);
 }
 
 .fa-flip-horizontal {
+  filter: none;
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
   -webkit-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
 
 .fa-flip-vertical {
+  filter: none;
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   -webkit-transform: scale(1, -1);
   transform: scale(1, -1);
@@ -12272,6 +12277,7 @@ a.text-dark:focus {
 
 .fa-flip-both,
 .fa-flip-horizontal.fa-flip-vertical {
+  filter: none;
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   -webkit-transform: scale(-1, -1);
   transform: scale(-1, -1);
@@ -19506,12 +19512,6 @@ div.cs-select:focus {
   /* For better accessibility add a style for this in your skin */
 }
 
-.cs-select {
-  /* Placeholder and selected option */
-  /* Options */
-  /* Optgroup and optgroup label */
-}
-
 .cs-select select {
   display: none;
 }
@@ -19547,7 +19547,6 @@ body:not(.cursor-is--active) .cs-select span {
 
 .cs-select>span:after,
 .cs-select>span:before {
-  speak: none;
   position: absolute;
   content: "";
   background-color: #FFBA00;
@@ -28870,7 +28869,7 @@ body.site-layout--horizontal {
   }
 
   .site-layout--default .site-content__inner .site-content__holder {
-    max-width: 675px;
+    max-width: 95%;
   }
 }
 
@@ -28880,7 +28879,7 @@ body.site-layout--horizontal {
   }
 
   .site-layout--default .site-content__inner .site-content__holder {
-    max-width: 920px;
+    max-width: 95%;
   }
 }
 
