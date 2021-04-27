@@ -23501,9 +23501,12 @@ body:not(.cursor-is--active) .site-overlay {
   min-height: 100vw;
   padding: 40px;
   text-align: center;
-  background-color: #fff;
   overflow: hidden;
+  background-repeat: round;
+  background-size: auto;
+  font-weight: 600;
 }
+
 
 @media (min-width: 576px) {
   .partner {
@@ -23534,9 +23537,7 @@ body:not(.cursor-is--active) .site-overlay {
 .partner__header {
   position: absolute;
   left: 0;
-  width: 100%;
-  -webkit-transition: all 700ms ease;
-  transition: all 700ms ease;
+  width: 100%;s
 }
 
 .partner__logo {
@@ -23555,7 +23556,9 @@ body:not(.cursor-is--active) .site-overlay {
 }
 
 .partner__header {
-  top: 50%;
+  top: 70%;
+  text-align: left;
+  padding-left: 5%
 }
 
 .partner__title {
@@ -23590,41 +23593,41 @@ body:not(.cursor-is--active) .site-overlay {
 .partner__excerpt {
   position: absolute;
   top: 50%;
-  left: 0;
   width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
+  left:0;
   font-size: .75rem;
   line-height: 1.667;
+  text-align: left;
+  padding-left: 6%;
+  padding-right: 40px;
   opacity: 0;
-  -webkit-transform: translateY(48px);
-  transform: translateY(48px);
+  -webkit-transform: translateY(200%);
+  transform: translateY(200%);
   -webkit-transition: all 700ms ease;
   transition: all 700ms ease;
 }
 
 @media (min-width: 992px) {
   .partner__excerpt {
-    padding-left: 5.20833vh;
-    padding-right: 5.20833vh;
     font-size: 1.5625vh;
-    -webkit-transform: translateY(6.25vh);
-    transform: translateY(6.25vh);
+    padding-right: 40px;
+    -webkit-transform: translateY(200%);
+    transform: translateY(200%);
   }
 }
 
 .partner:hover .partner__logo,
 .partner:hover .partner__header {
-  -webkit-transform: translateY(-38px);
-  transform: translateY(-38px);
+  -webkit-transform: translateY(-140%);
+  transform: translateY(-140%);
 }
 
 @media (min-width: 992px) {
 
   .partner:hover .partner__logo,
   .partner:hover .partner__header {
-    -webkit-transform: translateY(-4.94792vh);
-    transform: translateY(-4.94792vh);
+    -webkit-transform: translateY(-140%);
+  transform: translateY(-140%);
   }
 }
 
@@ -24695,9 +24698,9 @@ html.touch .social-menu.social-menu--header {
 
 @media (min-width: 992px) {
   .staff-member__title {
-    margin-bottom: 2.34375vh;
+    margin-bottom: 2vh;
     padding-right: 2.60417vh;
-    font-size: 5.98958vh;
+    font-size: 5vh;
   }
 }
 
@@ -24709,7 +24712,7 @@ html.touch .social-menu.social-menu--header {
 
 .staff-member__position,
 .staff-member__meta span {
-  color: #ced0da;
+  color: #151720;
 }
 
 .staff-member__position {
@@ -28258,6 +28261,31 @@ body:not(.cursor-is--active) .widget-partners-carousel .slick-arrow {
  * Element Backgrounds
  *
  */
+ .management-banner {
+  background-image: url("../img/Management-banner.jpg");
+  position: relative;
+}
+
+.management-bg-01 {
+  background-image: url("../img/photos/Frank-head.png");
+}
+
+.management-bg-02 {
+  background-image: url("../img/photos/Frank-head.png");
+}
+
+.management-bg-03 {
+  background-image: url("../img/photos/Frank-head.png");
+}
+
+.management-bg-04 {
+  background-image: url("../img/photos/Frank-head.png");
+}
+
+.management-bg-05 {
+  background-image: url("../img/photos/Frank-head.png");
+}
+
 .bg--ph-01 {
   background-image: url("../img/page-heading-img-01.jpg");
 }
