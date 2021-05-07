@@ -12093,6 +12093,7 @@ a.text-dark:focus {
   font-variant: normal;
   font-weight: normal;
   line-height: 1;
+  padding: 33%
 }
 
 .fa-lg {
@@ -23555,10 +23556,20 @@ body:not(.cursor-is--active) .site-overlay {
   }
 }
 
+@media (min-width: 992px) {
+  .partner__logo_2 img {
+    margin-bottom: 4vh;
+  }
+}
+
+.partner__header_2 {
+  top: 65%;
+}
+
 .partner__header {
   top: 65%;
   text-align: left;
-  padding-left: 5%
+  padding-left: 5%;
 }
 
 .partner__title {
@@ -23592,7 +23603,7 @@ body:not(.cursor-is--active) .site-overlay {
 
 .partner__excerpt {
   position: absolute;
-  top: 50%;
+  top: 60%;
   width: 100%;
   left:0;
   font-size: .75rem;
@@ -23601,8 +23612,8 @@ body:not(.cursor-is--active) .site-overlay {
   padding-left: 6%;
   padding-right: 40px;
   opacity: 0;
-  -webkit-transform: translateY(200%);
-  transform: translateY(200%);
+  -webkit-transform: translateY(5.25vh);
+  transform: translateY(5.25vh);
   -webkit-transition: all 700ms ease;
   transition: all 700ms ease;
 }
@@ -23611,8 +23622,8 @@ body:not(.cursor-is--active) .site-overlay {
   .partner__excerpt {
     font-size: 1.5625vh;
     padding-right: 40px;
-    -webkit-transform: translateY(200%);
-    transform: translateY(200%);
+    -webkit-transform: translateY(5.25vh);
+    transform: translateY(5.25vh);
   }
 }
 
