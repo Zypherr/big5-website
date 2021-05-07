@@ -27511,12 +27511,12 @@ body.site-layout--horizontal {
 }
 
 .page-title {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 @media (min-width: 1920px) {
   .page-title {
-    margin-bottom: 86px;
+    margin-bottom: 40px;
   }
 }
 
@@ -34707,6 +34707,13 @@ body:not(.cursor-is--active) .matches-scores__navigation.slick-slider .slick-arr
   padding-left: 15px;
   padding-right: 15px;
   text-align: center;
+}
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
 }
 
 .lineups-table th:first-child, .lineups-table td:first-child {
