@@ -34802,12 +34802,12 @@ body:not(.cursor-is--active) .matches-scores__navigation.slick-slider .slick-arr
 }
 
 .lineups-table--style-1 td:first-child, .lineups-table--style-1 td:last-child {
-  width: 145px;
+  width: 90%;
 }
 
 @media (min-width: 576px) {
   .lineups-table--style-1 td:first-child, .lineups-table--style-1 td:last-child {
-    width: 225px;
+    width: 90%;
   }
 }
 
