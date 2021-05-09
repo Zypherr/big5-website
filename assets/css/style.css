@@ -23227,7 +23227,7 @@ body:not(.cursor-is--active) .site-overlay {
 
 @media (min-width: 1920px) {
   .page-heading.page-heading--loop {
-    width: 740px;
+    width: 100%;
   }
 }
 
