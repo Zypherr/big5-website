@@ -3,8 +3,13 @@
     "",
     "\\assets",
     "\\assets\\css",
-    "\\source"
+    "\\assets\\css\\maps",
+    "\\source",
+    "\\source\\html",
+    "\\source\\html\\assets",
+    "\\source\\html\\assets\\css",
+    "\\source\\html\\assets\\css\\maps"
   ],
-  "SelectedNode": "\\management Staff.html",
+  "SelectedNode": "\\big5-management.html",
   "PreviewInSolutionExplorer": false
 }
