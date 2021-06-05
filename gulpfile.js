@@ -3,8 +3,8 @@
  * Gulpfile setup.
  *
  * @since 1.0.0
- * @version 1.4.1
- * @author Dan Fisher
+ * @version 1.0.0
+ * @author Kyle Slater
  *
  * ========================================================================= */
 
@@ -325,24 +325,4 @@ gulp.task('deploy', function(cb) {
 	sequence('build', 'ftp-deploy', cb);
 });
 
-
-/** ---------------------------------------------------------------------------
- * ThemeForest Pack.
- * ------------------------------------------------------------------------- */
-
-// Copies all files for buyers.
-gulp.task('export', function() {
-	return gulp
-		.src([
-			PATHS.src + '/**',
-			PATHS.dist + '/**',
-			'.editorconfig',
-			'config.json',
-			'gulpfile.js',
-			'package.json'
-		], {
-			base: '.'
-		})
-		.pipe(gulp.dest('../necromancers-for-buyers/EXPORT'));
-});
 
