@@ -20768,7 +20768,7 @@ body:not(.cursor-is--active) .select-wrapper select {
 
 @media (min-width: 1920px) {
   .header-logo--img img {
-    max-width: 200px;
+    max-width: 140px;
   }
 }
 
@@ -21852,7 +21852,7 @@ body:not(.cursor-is--active) .site-overlay {
 
 @media (min-width: 1920px) {
   .page-heading.page-heading--loop {
-    width: 740px;
+    width: 600px;
   }
 }
 
@@ -23406,7 +23406,7 @@ html.touch .social-menu.social-menu--header {
 
 @media (min-width: 1920px) {
   .streams-filter {
-    margin-top: 80px;
+    margin-top: 30px;
   }
 }
 
@@ -23549,8 +23549,15 @@ body:not(.cursor-is--active) .stream {
 
 @media (min-width: 1920px) {
   .stream {
-    width: calc(84.896vh - 100px);
-    height: calc(50vh - 100px / 2);
+    width: calc(1920px - 600px);
+    height: 100%;
+  }
+}
+
+@media (min-width: 2560px) {
+  .stream {
+    width: calc(2560px - 600px);
+    height: 100%;
   }
 }
 
