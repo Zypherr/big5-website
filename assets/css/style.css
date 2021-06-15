@@ -19463,10 +19463,28 @@ input[type="button"].btn-block {
   fill: #ffcc00;
 }
 
+.counter__icon__first .df-icon {
+  width: 24px;
+  height: 24px;
+  fill: #ffcc00;
+}
+
+.counter__icon__second .df-icon {
+  width: 24px;
+  height: 24px;
+  fill: #727272;
+}
+
+.counter__icon__third .df-icon {
+  width: 24px;
+  height: 24px;
+  fill: #462200;
+}
+
 @media (min-width: 1920px) {
   .counter__icon .df-icon {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
   }
 }
 
@@ -28264,12 +28282,16 @@ body:not(.cursor-is--active) .widget-partners-carousel .slick-arrow {
   position: relative;
 }
 
+.image-cover{
+  background-size: cover;
+}
+
 .management-bg-01 {
   background-image: url("../img/photos/Frank-head.png");
 }
 
 .management-bg-02 {
-  background-image: url("../img/photos/profile-default.png");
+  background-image: url("../img/photos/Robyn-Head.png");
 }
 
 .management-bg-03 {
