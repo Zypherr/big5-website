@@ -23590,11 +23590,17 @@ body:not(.cursor-is--active) .site-overlay {
   top: 65%;
 }
 
+
+
 .partner__header {
-  top: 65%;
   text-align: left;
   padding-left: 5%;
+  display: none;
+  background-color: rgb(217, 165, 32, 0.5); 
+  width: 100%; 
+  height: 100%;
 }
+
 
 .partner__title {
   margin-bottom: 1px;
@@ -23680,6 +23686,14 @@ body:not(.cursor-is--active) .site-overlay {
   display: block;
   padding: 0;
   font-size: .625rem;
+}
+
+.partner:hover .partner__header{
+  display: block;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
 }
 
 @media (min-width: 992px) {
@@ -24716,6 +24730,7 @@ html.touch .social-menu.social-menu--header {
 
 .staff-member__title {
   padding-right: 20px;
+  color: white;
 }
 
 @media (min-width: 992px) {
@@ -24723,6 +24738,7 @@ html.touch .social-menu.social-menu--header {
     margin-bottom: 2vh;
     padding-right: 2.60417vh;
     font-size: 5vh;
+    color: white;
   }
 }
 
@@ -24732,20 +24748,29 @@ html.touch .social-menu.social-menu--header {
   text-transform: uppercase;
 }
 
-  .staff-member__position,
+  .staff-member__position{
+    color: #000000;
+  }
+
+  .staff-member__meta {
+    color: white;
+  }
+
   .staff-member__meta span {
-    color: #ab8119;
+    color: Black;
   }
 
 .staff-member__position {
   font-size: 1rem;
   line-height: 2.125;
   letter-spacing: -.06em;
+  padding-top: 60%;
 }
 
 @media (min-width: 992px) {
   .staff-member__position {
     font-size: 2.08333vh;
+    padding-top: 60%;
   }
 }
 
