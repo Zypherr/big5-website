@@ -23179,7 +23179,7 @@ body:not(.cursor-is--active) .site-overlay {
 @media (min-width: 768px) {
   .page-heading--default {
     width: 70%;
-    margin-bottom: 65px;
+    margin-bottom: 3%;
   }
 }
 
