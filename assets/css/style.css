@@ -23166,6 +23166,12 @@ body:not(.cursor-is--active) .site-overlay {
   z-index: 1106;
 }
 
+.Big5-preloader{
+  width: 40%;
+  padding-bottom: 2%; 
+  margin: auto;
+}
+
 .page-heading--default {
   margin-bottom: 38px;
 }
