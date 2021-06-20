@@ -37919,7 +37919,7 @@ body:not(.cursor-is--active) .team-carousel-tabs__navigation li {
 @media (min-width: 1920px) {
   .team-player__filter {
     top:35%;
-    left: 8%;
+    left: 8%; /*Remove the inline 6% when more than 2 partners*/
   }
 }
 
