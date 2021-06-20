@@ -18575,7 +18575,7 @@ ol.list li::before {
 ul.list li::before {
   font-family: 'Font Awesome 5 Free';
   font-weight: normal;
-  content: "\f00c";
+  content: "";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -28583,6 +28583,8 @@ body.site-layout--horizontal {
   min-width: 100%;
 }
 
+
+
 @media (min-width: 1920px) {
   .container--large {
     max-width: 1640px;
@@ -28622,6 +28624,22 @@ body.site-layout--horizontal {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+  }
+}
+
+.partner-images{
+  width: 80%
+}
+
+@media (min-width: 1920px) {
+  .partner-row {
+    margin-left: 13%;
+  }
+}
+
+@media (min-width: 2560px) {
+  .partner-row {
+    margin-left: 26.5%;
   }
 }
 
@@ -30295,16 +30313,10 @@ body.site-layout--horizontal {
 }
 
 .post--single .post__body figure {
-  margin-top: 52px;
   margin-bottom: 52px;
 }
 
-@media (min-width: 1920px) {
-  .post--single .post__body figure {
-    margin-top: 69px;
-    margin-bottom: 69px;
-  }
-}
+
 
 .post--single .post__body figure img {
   width: 100%;
@@ -30324,7 +30336,7 @@ body.site-layout--horizontal {
 @media (min-width: 1920px) {
   .post--single .post__body figure figcaption {
     padding: 19px 46px 17px 86px;
-    font-size: .875rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -30358,7 +30370,7 @@ body.site-layout--horizontal {
   line-height: 24px;
   text-align: center;
   text-transform: none;
-  content: "i";
+  content: "✰";
   background-color: #222430;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -31611,11 +31623,7 @@ body:not(.cursor-is--active) .post__sharing-item--menu i {
   }
 }
 
-@media (min-width: 1920px) {
-  .account-content {
-    padding: 98px 118px;
-  }
-}
+
 
 @media (min-width: 1920px) {
   .account-content .h4 {
@@ -37907,6 +37915,55 @@ body:not(.cursor-is--active) .team-carousel-tabs__navigation li {
     -ms-flex-direction: column;
     flex-direction: column;
     margin-bottom: 0;
+  }
+}
+
+@media (min-width: 2500px) {
+  .hand-shake-icon {
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    background-image: url(/assets/img/handshake-icon.png);
+    background-repeat: no-repeat;
+    margin-left: 30%;
+    margin-top: 10%;
+  }
+}
+
+
+@media (min-width: 1920px) {
+  .form {
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 2500px) {
+  .form {
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 1920px) {
+  .large-partnerhead {
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 2500px) {
+  .large-partnerhead {
+    margin-top: 7%;
+  }
+}
+
+@media (min-width: 1920px) {
+  .small-head {
+    margin-top: 15%;
+  }
+}
+
+@media (min-width: 2500px) {
+  .small-head {
+    margin-top: 10%;
   }
 }
 
