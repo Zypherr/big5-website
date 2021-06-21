@@ -21083,6 +21083,7 @@ body:not(.cursor-is--active) .select-wrapper select {
 @media (min-width: 1920px) {
   .site-header--bottom .main-nav__sub {
     border-width: 4px;
+    margin-bottom: -5%;
   }
 }
 
@@ -21145,7 +21146,31 @@ body:not(.cursor-is--active) .select-wrapper select {
   .main-nav__sub li a {
     width: 280px;
     padding: 24px 44px 24px 35px;
-    font-size: .875rem;
+    font-size: .9rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .main-nav__sub li a {
+    width: 280px;
+    padding: 24px 44px 24px 35px;
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .main-nav__list>li>a {
+    font-size: 1rem;
+    padding-top: 41px;
+    padding-bottom: 39px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .main-nav__list>li>a {
+    font-size: 1.2rem;
+    padding-top: 41px;
+    padding-bottom: 39px;
   }
 }
 
@@ -22339,6 +22364,7 @@ html.touch .social-menu.social-menu--header {
   bottom: 100%;
   -webkit-transform: translateY(1rem);
           transform: translateY(1rem);
+          margin-bottom: 11%
 }
 
 .social-menu.social-menu--header li {
@@ -22398,7 +22424,7 @@ html.touch .social-menu.social-menu--header {
 
 .social-menu.social-menu--header li a .link-subtitle {
   display: block;
-  font-size: .625em;
+  font-size: .9em;
   line-height: 1;
   color: #5e627e;
 }
@@ -33292,7 +33318,7 @@ body:not(.cursor-is--active) .matches-scores__navigation.slick-slider .slick-arr
           justify-content: center;
   margin-top: 30px;
   padding-bottom: 30px;
-  font-size: .875rem;
+  font-size: 1rem;
   font-weight: bold;
   letter-spacing: -.03em;
   text-transform: uppercase;
