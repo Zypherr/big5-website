@@ -22345,25 +22345,11 @@ html.touch .social-menu.social-menu--header {
   display: block;
 }
 
-.site-header--top .social-menu.social-menu--header li {
-  border-top: 2px solid transparent;
-}
-
-@media (min-width: 1920px) {
-  .site-header--top .social-menu.social-menu--header li {
-    border-top-width: 4px;
-  }
-}
 
 .site-header--bottom .social-menu.social-menu--header li {
-  border-bottom: 2px solid transparent;
+  border-bottom: 1px solid #272b3b;
 }
 
-@media (min-width: 1920px) {
-  .site-header--bottom .social-menu.social-menu--header li {
-    border-bottom-width: 4px;
-  }
-}
 
 .social-menu.social-menu--header li a {
   position: relative;
