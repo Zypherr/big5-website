@@ -1,29 +1,34 @@
-<?php 
+<?php
 
-    if(isset($_POST['btn-send']))
+    if (isset($_POST['btn-send']))
     {
-       $UserName = $_POST['Fname'];
-       $Email = $_POST['Email'];
-	   $CountryCode = $_POST['Selectcountry'];
-	   $Contact = $_POST['Contact'];
-       $Msg = $_POST['Msg'];
-	   
-       if(empty($UserName) || empty($Email) || empty($CountryCode) || empty($Contact) || empty($Msg))
-       {
-           header('location:https://big5esports.co.za/Parter-Opportunities.php?error');
-       }
-       else
-       {
-           $to = "kds.gametech@gmail.com";
+        $UserName = $_POST['Fname'];
+        $Email = $_POST['Email'];
+        $CountryCode = $_POST['Selectcountry'];
+        $Contact = $_POST['Contact'];
+        $Msg = $_POST['Msg'];
 
-           if(mail($to,$Msg,$Email))
-           {
-               header("location:https://big5esports.co.za/Parter-Opportunities.php?success");
-           }
-       }
+        $Headers = "From: $UserName | $Email";
+        $Subject = "Big 5 Webiste - Partnership Contact form";
+
+        $FullBody = "From: $UserName\nEmail: $Email\nCountry Call Code: $CountryCode\nContact Number: $Contact\nSite Form: Partnership Contact From\n \n $Msg";
+
+        if (empty($UserName) || empty($Email) || empty($Msg))
+        {
+            header('location:https://big5esports.co.za/Partner-Opportunities.php?error');
+        }
+        else
+        {
+            $to = "info@big5esports.co.za";
+            if (mail($to, $Subject, $FullBody, $Headers))
+            {
+                header("location:https://big5esports.co.za/Partner-Opportunities.php?success");
+            }
+        }
     }
     else
     {
-        header("location:https://big5esports.co.za/Parter-Opportunities.php");
+        header("location:https://big5esports.co.za/Partner-Opportunities.php");
     }
+
 ?>
