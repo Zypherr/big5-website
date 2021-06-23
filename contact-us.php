@@ -139,26 +139,29 @@
                             <div class="info-box__label">General inquiries</div>
                             <div class="info-box__content">
                                 <a href="mailto:#">info<span class="color-primary">@</span
-                    >Big5esports.co.za</a
-                  >
-                </div>
-              </div>
-              <ul class="social-menu social-menu--links">
-                <li><a href="https://www.facebook.com/Big5Esports"></a></li>
+                                >Big5esports.co.za</a
+                            >
+                            </div>
+                        </div>
+                        <ul class="social-menu social-menu--links">
+                            <li><a href="https://www.facebook.com/Big5Esports" target="_blank"></a></li>
                                 <li>
-                                    <a href="https://twitter.com/Big5Esports"></a>
+                                    <a href="https://twitter.com/Big5Esports" target="_blank"></a>
                                 </li>
                                 <li>
-                                    <a href="https://twitch.tv/Big5_Live"></a>
+                                    <a href="https://twitch.tv/Big5_Live" target="_blank"></a>
                                 </li>
                                 <li>
-                                    <a href="https://discord.gg/ZaseAhv6Qh"></a>
+                                    <a href="https://discord.gg/ZaseAhv6Qh" target="_blank"></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/company/71679288"></a>
+                                    <a href="https://www.linkedin.com/company/71679288" target="_blank"></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/Big5Esports"></a>
+                                    <a href="https://www.instagram.com/Big5Esports" target="_blank"></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UCAQ3Y-ktvpS48zQjLyegD2A" target="_blank"></a>
                                 </li>
                                 </ul>
                                 <h4 class="text-sm">Join our team</h4>
@@ -166,30 +169,52 @@
                                     We’re always looking for new talent to join our teams. If you wanna join us, just send us and email and we’ll get back to you!
                                 </p>
 
-                                <span class="spacer-lg">&nbsp;</span>
                                 <h4>Send us a message</h4>
-                                <form action="#" class="form">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" id="input-name" placeholder="Your Name" />
+                                <div class="card-title">
+
+                                    <?php 
+                                        $Msg = "";
+                                        if(isset($_GET['error']))
+                                        {
+                                            $Msg = " Please Fill in the Blanks ";
+                                            echo '<div class="alert alert-danger">'.$Msg.'</div>';
+                                        }
+
+                                        if(isset($_GET['success']))
+                                        {
+                                            $Msg = " Your Message Has Been Sent ";
+                                            echo '<div class="alert alert-success">'.$Msg.'</div>';
+                                        }
+                                    
+                                    ?>
+                                </div>
+                                <div class="card-body">
+                                    <form action="process.php" method="post">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="UName" placeholder="User Name" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="email" name="Email" placeholder="Email" class="form-control">
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" id="input-email" placeholder="Your Email" />
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <textarea name="msg" class="form-control" cols="30" rows="3" placeholder="Write The Message"></textarea>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <textarea name="input-message" cols="30" rows="5" class="form-control" id="input-message" placeholder="Your Message"></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button class="btn btn-secondary">Send message</button>
-                                </form>
+
+
+
+                                        <button class="btn btn-success" style="float: right" name="btn-send"> Send </button>
+                                    </form>
+                                </div>
                             </div>
                             <!-- Google Map -->
                             <div class="gm-map gm-map--aside" data-map-style="necromancers" data-map-address="645 5th Ave, New York, US" data-map-icon="assets/img/map-marker.png" data-map-zoom="15">
@@ -227,6 +252,33 @@
 
         <script src="assets/js/init.js"></script>
         <script src="assets/js/custom.js"></script>
+
+        <script type="text/javascript">
+            function validateContactForm() {
+                var valid = true;
+                var userName = $("#input-name").val();
+                var userEmail = $("#input-email").val();
+                var content = $("#input-message").val();
+
+                if (userName == "") {
+                    $("#input-name").html("Required.");
+                    $("#input-name").css("border", "#e66262 1px solid");
+                    valid = false;
+                }
+                if (!userEmail.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
+                    $("#input-email").html("Required.");
+                    $("#input-email").css("border", "#e66262 1px solid");
+                    valid = false;
+                }
+
+                if (content == "") {
+                    $("#input-message").html("Required.");
+                    $("#input-message").css("border", "#e66262 1px solid");
+                    valid = false;
+                }
+                return valid;
+            }
+        </script>
 </body>
 
 </html>
