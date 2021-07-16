@@ -27410,15 +27410,27 @@ body:not(.cursor-is--active) .widget-partners-carousel .slick-arrow {
 }
 
 .management-bg-03 {
-    background-image: url("../img/photos/Frank-head.png");
+    background-image: url("../img/photos/kyle-head.png");
 }
 
 .management-bg-04 {
-    background-image: url("../img/photos/Frank-head.png");
+    background-image: url("../img/photos/Jan-head.png");
 }
 
 .management-bg-05 {
-    background-image: url("../img/photos/Frank-head.png");
+    background-image: url("../img/photos/Fern-head.png");
+}
+
+.management-bg-06 {
+    background-image: url("../img/photos/samuel-head.png");
+}
+
+.management-bg-07 {
+    background-image: url("../img/photos/Hadlee-head.png");
+}
+
+.management-bg-08 {
+    background-image: url("../img/photos/space-head.png");
 }
 
 .bg--ph-01 {

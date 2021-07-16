@@ -72,10 +72,12 @@
                     <li>
                         <a href="#">Media</a>
                         <ul class="main-nav__sub">
-                            <!--<li><a href="Content-Creators.html">Content Creators</a></li>-->
                             <li><a href="Wallpaper-Gallery.html">Wallpapers</a></li>
                             <li>
-                                <a href="Content-Creator-Channels.html">Content Creators</a>
+                                <a href="Streams.html">Twitch Streams</a>
+                            </li>
+                            <li>
+                                <a href="Content-Creators.html">Content Creators</a>
                             </li>
                             <li>
                                 <a href="assets/Presskit/Big5-PressPack.rar">Press Kit</a>
@@ -218,7 +220,7 @@
                         data-map-address="645 5th Ave, New York, US" data-map-icon="assets/img/map-marker.png"
                         data-map-zoom="15">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.4202066387334!2d28.187178701345825!3d-25.845830323710477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9565296d84575b%3A0xac88456c15e4cfb6!2sCasa%20Mia!5e0!3m2!1sen!2sza!4v1620390505024!5m2!1sen!2sza"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13833.253436347475!2d31.019152687433827!3d-29.91287966088437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7a92ea2a95873%3A0x363017524e7e599c!2sOcean%20View%2C%20Bluff%2C%204052!5e0!3m2!1sen!2sza!4v1626446140530!5m2!1sen!2sza"
                             width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                     <!-- Google Map / End -->

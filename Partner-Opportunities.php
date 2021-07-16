@@ -76,10 +76,12 @@
                     <li>
                         <a href="#">Media</a>
                         <ul class="main-nav__sub">
-                            <!--<li><a href="Content-Creators.html">Content Creators</a></li>-->
                             <li><a href="Wallpaper-Gallery.html">Wallpapers</a></li>
                             <li>
-                                <a href="Content-Creator-Channels.html">Content Creators</a>
+                                <a href="Streams.html">Twitch Streams</a>
+                            </li>
+                            <li>
+                                <a href="Content-Creators.html">Content Creators</a>
                             </li>
                             <li>
                                 <a href="assets/Presskit/Big5-PressPack.rar">Press Kit</a>
@@ -123,8 +125,8 @@
                     </li>
                 </ul>
             </nav>
-
         </header>
+        
         <!-- Content
 		================================================== -->
         <main class="site-content account-page" id="wrapper">

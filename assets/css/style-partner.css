@@ -23349,11 +23349,74 @@ body:not(.cursor-is--active) .site-overlay {
   width: 80%;
 }
 
+@media (min-width: 1920px) {
+  .bgimg-nt{
+    background-image: url(/assets/img/sponsors/nutritech-back_1920.png);
+    background-size: cover;
+  }
+}
+
+@media (min-width: 2500px) {
+  .bgimg-nt{
+    background-image: url(/assets/img/sponsors/nutritech-back.png);
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1920px) {
+  .bgimg-ps{
+    background-image: url(/assets/img/sponsors/primeself-back_1920.png);
+    background-size: cover;
+  }
+}
+
+@media (min-width: 2500px) {
+  .bgimg-ps{
+    background-image: url(/assets/img/sponsors/primeself-back.png);
+    background-size: cover;
+  }
+}
+
+
+@media (min-width: 1920px) {
+  .bgimg-kdo{
+    background-image: url(/assets/img/Creators/KDO_BACK_1920.png);
+    background-size: cover;
+  }
+}
+
+@media (min-width: 2500px) {
+  .bgimg-kdo{
+    background-image: url(/assets/img/Creators/KDO_BACK.png);
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1920px) {
+  .bgimg-anni{
+    background-image: url(/assets/img/Creators/ANNI_BACK_1920.png);
+    background-size: cover;
+  }
+}
+
+@media (min-width: 2500px) {
+  .bgimg-anni{
+    background-image: url(/assets/img/Creators/ANNI_BACK.png);
+    background-size: cover;
+  }
+}
+
 .page-heading--loop .page-heading__title {
   margin-bottom: 150%;
 }
 
 @media (min-width: 1920px) {
+  .page-heading--loop .page-heading__title {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 2500px) {
   .page-heading--loop .page-heading__title {
     font-size: 3rem;
   }
