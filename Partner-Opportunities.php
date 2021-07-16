@@ -269,8 +269,8 @@
                         </p>
 
                     </div>
-                    <br>
-                    <h4 style="text-align: center; margin-bottom: 5%; margin-top: 2%;">What is on the table.</h4>
+                    <br><br>
+                    <!-- <h4 style="text-align: center; margin-bottom: 5%; margin-top: 2%;">What is on the table.</h4>
 
                     <div class="row" style=" margin-bottom: 5%;">
                         <div class="col-md-6">
@@ -295,7 +295,7 @@
                                 <li>Service 14</li>
                             </ul>
                         </div>
-                    </div>
+                    </div>-->
 
                     <h5 style="text-align: center;">Brands we have worked with.</h5>
                     <div class="row partner-row">
