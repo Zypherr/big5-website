@@ -1,18 +1,15 @@
 {
-  "name": "necromancers",
-  "version": "1.4.1",
-  "description": "Necromancers HTML template is suitable for eSports and gaming sites.",
+  "name": "big5esports",
+  "version": "1.0",
+  "description": "South African esports team website - Big 5 Esports",
   "main": "index.html",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danfisher85/necromancers-html.git"
+    "url": ""
   },
-  "author": "Dan Fisher",
-  "license": "SEE LICENSE IN https://themeforest.net/licenses",
-  "bugs": {
-    "url": "https://github.com/danfisher85/necromancers-html/issues"
-  },
-  "homepage": "https://github.com/danfisher85/necromancers-html#readme",
+  "author": "Kyle Slater",
+  "license": "",
+  "homepage": "",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "del": "^3.0.0",
